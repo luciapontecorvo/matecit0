@@ -42,7 +42,7 @@ body {
     padding: 15px;
     height: 60px;
     width: 100;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .nav-action-list{
@@ -57,7 +57,7 @@ body {
 .header{
     min-height: 100vh;
     position: relative;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .bg{
@@ -109,6 +109,8 @@ body {
     background-color: black;
 }
 
+
+
 /* SECCIONES DE PRODUCTOS / MAIN */
 
 h2 {
@@ -118,7 +120,7 @@ h2 {
 }
 
 .box-container {
-    margin-top: 55px;
+    margin: 55px;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
     gap: 20px;
@@ -140,11 +142,12 @@ h2 {
 }
 
 .box img {
-    width: 120px;
+    width: 100%;
+    height: auto;
 }
 
 .product-txt h3 {
-    font-size: 25px;
+    font-size: 20px;
     color: #93918e;
     margin-bottom: 10px;
     text-align: center;
@@ -159,7 +162,7 @@ h2 {
 .btn-2 {
     background-color: #93918e;
     margin-top: 50px;
-    display: inline-block;
+    display: flex;
     padding: 13px 35px;
     border-radius: 25px;
     color: #FFFFFF;
@@ -170,4 +173,20 @@ h2 {
 
 .btn-2:hover {
     background-color: black;
+}
+
+.btn-3 {
+    background-color: #93918e;
+    margin-top: 20px;
+    display: flex;
+    padding: 13px 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-3:hover {
+    background-color: #c8cbce;
 }

@@ -4,7 +4,7 @@ const productos = [
         nombre: "Mate Camionero Negro",
         precio: 3500,
         img:
-        "#",
+        "../multimedia/mates/matecamioneropremium.jpeg",
         cantidad: 1,
     },
     {
@@ -12,7 +12,7 @@ const productos = [
         nombre: "Mate Alpaca",
         precio: 3500,
         img:
-        "#",
+        "../multimedia/mates/matealpaca.jpeg",
         cantidad: 1,
     },
         {
