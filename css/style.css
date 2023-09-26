@@ -54,6 +54,30 @@ body {
     padding: 5px;
 }
 
+/* buscador del navbar */
+
+.results-list{
+    margin-top: 10px;
+    padding-left: 0;
+    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.results-list li{
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.no-results {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    display: none;
+}
+
 .header{
     min-height: 100vh;
     position: relative;
@@ -193,8 +217,28 @@ h2 {
     font-size: 16px;
     cursor: pointer;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-style: none;
 }
 
 .btn-3:hover {
-    background-color: #c8cbce;
+    background-color: black;
 }
+
+
+/* Estilos para el botón de ordenar */
+#sortButton {
+    background-color: #808080;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Estilos para el botón de ordenar al pasar el mouse */
+#sortButton:hover {
+    background-color: #555;
+}
+
+
