@@ -1,0 +1,629 @@
+@media screen and (min-device-width: 320px) and (max-device-width: 374px){
+    
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eff0f2;
+}
+
+.logo-r{
+    font-size: 18px;
+    color: #93918e;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 15px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    font-size: 20px;
+    font-weight: 525;
+    color: #93918e;
+    text-transform: uppercase;
+    
+}
+
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#email{
+    margin-top: 20px;
+}
+
+input{
+    padding: 5px;
+    /* border-color:#c8cbce ; */
+    border:0; 
+    border: 1px solid #c8cbce; 
+    border-bottom: 2px solid #c8cbce;
+    border-right:  2px solid #c8cbce;
+    margin: 7px;
+    
+}
+input[type=text] {
+    padding:10px;
+    
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.crear-cuenta {
+    padding: 7px; 
+    width: 96px;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #c8cbce;
+    color: #5e5f62;
+    border-radius: 1rem;
+}
+
+.iniciar-sesion{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+    
+} 
+.iniciar-sesion > h3{
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 520;
+    color: #93918e;
+    text-transform: uppercase;
+}
+
+.iniciar-sesion > a{
+   
+    padding: 10px;
+    text-decoration: none;
+    color: #5e5f62;
+    background-color: #c8cbce;
+    margin-top: 15px;
+    margin-left: 64px;
+    margin-right: 64px;
+    border-radius: 18px;
+}
+}
+
+@media screen and (min-device-width: 375px) and (max-device-width: 403px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        background-color: #eff0f2;
+    }
+    
+    .logo-r{
+        font-size: 18px;
+        color: #93918e;
+        text-transform: uppercase;
+        font-weight: 800;
+        padding: 15px;
+    }
+
+    .title{
+        display: flex;
+        justify-content: center;
+        margin-top: 7rem;
+        font-size: 20px;
+        font-weight: 525;
+        color: #93918e;
+        text-transform: uppercase;
+        
+    }
+    
+    .form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #email{
+        margin-top: 20px;
+    }
+    
+    input{
+        padding: 5px;
+        /* border-color:#c8cbce ; */
+        border:0; 
+        border: 1px solid #c8cbce; 
+        border-bottom: 2px solid #c8cbce;
+        border-right:  2px solid #c8cbce;
+        margin: 7px;
+        
+    }
+    input[type=text] {
+        padding:10px;
+        
+        box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+      }
+    
+      .container{
+        display: flex;
+        justify-content: center;
+      }
+    
+      .crear-cuenta{
+        padding: 7px; 
+        width: 96px;
+        box-sizing: border-box;
+        text-decoration: none;
+        background-color: #c8cbce;
+        color: #5e5f62;
+        border-radius: 1rem;
+    }
+    
+    .iniciar-sesion{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap
+        
+    } 
+    .iniciar-sesion > h3{
+        margin-top: 25px;
+        font-size: 16px;
+        font-weight: 520;
+        color: #93918e;
+        text-transform: uppercase;
+    }
+    
+    .iniciar-sesion > a{
+       
+        padding: 10px;
+        text-decoration: none;
+        color: #5e5f62;
+        background-color: #c8cbce;
+        margin-top: 15px;
+        margin-left: 64px;
+        margin-right: 64px;
+        border-radius: 18px;
+    }
+    
+    }
+
+@media screen and (min-device-width: 404px) and (max-device-width: 411px){
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        body{
+            background-color: #eff0f2;
+        }
+        
+        .logo-r{
+            font-size: 18px;
+            color: #93918e;
+            text-transform: uppercase;
+            font-weight: 800;
+            padding: 15px;
+        }
+
+        .title{
+            display: flex;
+            justify-content: center;
+            margin-top: 7rem;
+            font-weight: 525;
+            font-size: 20px;
+            color: #93918e;
+            text-transform: uppercase;
+            
+        }
+        .form{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        #email{
+            margin-top: 20px;
+        }
+        
+        input{
+            padding: 5px;
+            /* border-color:#c8cbce ; */
+            border:0; 
+            border: 1px solid #c8cbce; 
+            border-bottom: 2px solid #c8cbce;
+            border-right:  2px solid #c8cbce;
+            margin: 7px;
+            
+        }
+        input[type=text] {
+            padding:10px;
+            
+            box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+          }
+        
+          .container{
+            display: flex;
+            justify-content: center;
+          }
+        
+          .crear-cuenta{
+            padding: 7px; 
+            width: 96px;
+            box-sizing: border-box;
+            text-decoration: none;
+            background-color: #c8cbce;
+            color: #5e5f62;
+            border-radius: 1rem;
+        }
+        
+        .iniciar-sesion{
+            display: flex;
+            align-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+            
+            
+        } 
+        .iniciar-sesion > h3{
+            margin-top: 25px;
+            font-size: 16px;
+            font-weight: 520;
+            color: #93918e;
+            text-transform: uppercase;
+        }
+        
+        .iniciar-sesion > a{
+           
+            padding: 10px;
+            text-decoration: none;
+            color: #5e5f62;
+            background-color: #c8cbce;
+            margin-top: 15px;
+            margin-left: 64px;
+            margin-right: 64px;
+            border-radius: 18px;
+        }
+        
+        }
+
+@media screen and (min-device-width: 412px) and (max-device-width: 767px){
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            
+            body{
+                background-color: #eff0f2;
+            }
+            
+            .logo-r{
+                font-size: 18px;
+                color: #93918e;
+                text-transform: uppercase;
+                font-weight: 800;
+                padding: 15px;
+            }
+
+            .title{
+                display: flex;
+                justify-content: center;
+                margin-top: 7rem;
+                font-size: 20px;
+                font-weight: 525;
+                color: #93918e;
+                text-transform: uppercase;
+                
+            }
+            
+            .form{
+                display: flex;
+                flex-wrap: wrap;
+                align-content: center;
+                flex-direction: column;
+               
+
+            }
+            
+            #email{
+                margin-top: 20px;
+            }
+            
+            input{
+                padding: 5px;
+                /* border-color:#c8cbce ; */
+                border:0; 
+                border: 1px solid #c8cbce; 
+                border-bottom: 2px solid #c8cbce;
+                border-right:  2px solid #c8cbce;
+                margin: 7px;
+                width: 250px;
+                
+            }
+            input[type=text] {
+                padding:10px;
+                
+                box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+              }
+            
+              .container{
+                display: flex;
+                justify-content: center;
+              }
+            
+              .crear-cuenta{
+                padding: 7px; 
+                width: 96px;
+                box-sizing: border-box;
+                text-decoration: none;
+                background-color: #c8cbce;
+                color: #5e5f62;
+                border-radius: 1rem;
+            }
+            
+            .iniciar-sesion{
+            display: flex;
+            align-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+                
+            } 
+            .iniciar-sesion > h3{
+                margin-top: 25px;
+                font-size: 16px;
+                font-weight: 520;
+                color: #93918e;
+                text-transform: uppercase;
+            }
+            .iniciar-sesion > a{
+               
+                padding: 10px;
+                text-decoration: none;
+                color: #5e5f62;
+                background-color: #c8cbce;
+                margin-top: 15px;
+                margin-left: 64px;
+                margin-right: 64px;
+                border-radius: 18px;
+            }
+            
+            }
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+                *{
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                body{
+                    background-color: #eff0f2;
+                }
+                
+                .logo-r{
+                    font-size: 23px;
+                    color: #93918e;
+                    text-transform: uppercase;
+                    font-weight: 800;
+                    padding: 15px;
+                }
+
+                .title{
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 7rem;
+                    font-size: 30px;
+                    font-weight: 525;
+                    color: #93918e;
+                    text-transform: uppercase;
+                    
+                }
+                
+                .form{
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-content: center;
+                    flex-direction: column;
+                    
+                   
+    
+                }
+                
+                #email{
+                    margin-top: 20px;
+                }
+                
+                input{
+                    padding: 5px;
+                    /* border-color:#c8cbce ; */
+                    border:0; 
+                    border: 1px solid #c8cbce; 
+                    border-bottom: 2px solid #c8cbce;
+                    border-right:  2px solid #c8cbce;
+                    margin: 7px;
+                    width: 250px;
+                    
+                }
+                input[type=text] {
+                    padding:10px;
+                    
+                    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+                  }
+                
+                  .container{
+                    display: flex;
+                    justify-content: center;
+                  }
+                
+                  .crear-cuenta{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 12px; 
+                    width: 125px;
+                    box-sizing: border-box;
+                    text-decoration: none;
+                    background-color: #c8cbce;
+                    color: #5e5f62;
+                    border-radius: 1rem;
+                }
+                
+                .iniciar-sesion{
+                display: flex;
+                align-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                flex-direction: column;
+                    
+                } 
+                .iniciar-sesion > h3{
+                    margin-top: 25px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #93918e;
+                    text-transform: uppercase;
+                }
+                
+                .iniciar-sesion > a{
+                   
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 12px; 
+                    width: 125px;
+                    box-sizing: border-box;
+                    text-decoration: none;
+                    background-color: #c8cbce;
+                    color: #5e5f62;
+                    border-radius: 1rem;
+                    margin-top: 15px;
+                }
+                
+                }
+
+
+
+@media screen and (min-device-width: 1024px) {
+                        *{
+                            margin: 0;
+                            padding: 0;
+                        }
+                        
+                        body{
+                            background-color: #eff0f2;
+                        }
+                        
+                        
+                        .logo-r{
+                            font-size: 25px;
+                            color: #93918e;
+                            text-transform: uppercase;
+                            font-weight: 800;
+                            
+                            
+                        }
+        
+                        .title{
+                            display: flex;
+                            justify-content: center;
+                            margin-top: 7rem;
+                            font-size: 30px;
+                            font-weight: 525;
+                            color: #93918e;
+                            text-transform: uppercase;
+                            
+                        }
+                        
+                        .form{
+                            display: flex;
+                            flex-wrap: wrap;
+                            align-content: center;
+                            flex-direction: column;
+                            
+                           
+            
+                        }
+                        
+                        #email{
+                            margin-top: 20px;
+                        }
+                        
+                        input{
+                            padding: 5px;
+                            /* border-color:#c8cbce ; */
+                            border:0; 
+                            border: 1px solid #c8cbce; 
+                            border-bottom: 2px solid #c8cbce;
+                            border-right:  2px solid #c8cbce;
+                            margin: 7px;
+                            width: 250px;
+                            
+                        }
+                        input[type=text] {
+                            padding:10px;
+                            
+                            box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+                          }
+                        
+                          .container{
+                            display: flex;
+                            justify-content: center;
+                          }
+                        
+                          .crear-cuenta{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            padding: 12px; 
+                            width: 125px;
+                            box-sizing: border-box;
+                            text-decoration: none;
+                            background-color: #c8cbce;
+                            color: #5e5f62;
+                            border-radius: 1rem;
+                        }
+                        
+                        .iniciar-sesion{
+                        display: flex;
+                        align-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        flex-direction: column;
+                            
+                        } 
+                        .iniciar-sesion > h3{
+                            margin-top: 25px;
+                            font-size: 22px;
+                            font-weight: 500;
+                            color: #93918e;
+                            text-transform: uppercase;
+                        }
+                        
+                        .iniciar-sesion > a{
+                           
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            padding: 12px; 
+                            width: 125px;
+                            box-sizing: border-box;
+                            text-decoration: none;
+                            background-color: #c8cbce;
+                            color: #5e5f62;
+                            border-radius: 1rem;
+                            margin-top: 15px;
+                        }
+                        
+                        }
+
